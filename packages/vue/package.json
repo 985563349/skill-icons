@@ -1,0 +1,44 @@
+{
+  "name": "@skill-icons/vue",
+  "version": "0.0.0",
+  "description": "A set of free MIT-licensed SVG skill icons.",
+  "exports": {
+    ".": {
+      "types": {
+        "import": "./esm/index.d.ts",
+        "require": "./cjs/index.d.ts"
+      },
+      "import": "./esm/index.js",
+      "require": "./cjs/index.js"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    }
+  },
+  "files": [
+    "esm",
+    "cjs",
+    "package.json",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/985563349/skill-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/985563349/skill-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "skill-icons",
+    "vue"
+  ],
+  "author": "Jee",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": ">= 3"
+  }
+}

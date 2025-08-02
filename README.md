@@ -1,0 +1,464 @@
+# Skill Icons
+
+Exquisite handmade SVG skill icon library.
+
+## React
+
+🎯 **Preview All Icons Online** → [View React Demo](https://985563349.github.io/skill-icons/react/)
+
+First, install from npm:
+
+```bash
+npm install @skill-icons/react
+```
+
+Now each icon can be imported individually as a React component:
+
+```tsx
+import { ReactLight } from '@skill-icons/react';
+
+function MyComponent() {
+  return (
+    <div>
+      <ReactLight className="size-6" />
+    </div>
+  );
+}
+```
+
+## Vue
+
+🎯 **Preview All Icons Online** → [View Vue Demo](https://985563349.github.io/skill-icons/vue/)
+
+First, install from npm:
+
+```bash
+npm install @skill-icons/vue
+```
+
+Now each icon can be imported individually as a Vue component:
+
+```vue
+<script setup lang="ts">
+import { VueLight } from '@skill-icons/vue';
+</script>
+
+<template>
+  <div>
+    <VueLight class="size-6" />
+  </div>
+</template>
+```
+
+## Available Icons
+
+To see all Icons visit [skillicons.dev](https://skillicons.dev/)
+
+| Icon Name          | Usage                    |
+| ------------------ | ------------------------ |
+| AWSDark            | `<AWSDark />`            |
+| AWSLight           | `<AWSLight />`           |
+| AbletonDark        | `<AbletonDark />`        |
+| AbletonLight       | `<AbletonLight />`       |
+| ActivityPubDark    | `<ActivityPubDark />`    |
+| ActivityPubLight   | `<ActivityPubLight />`   |
+| ActixDark          | `<ActixDark />`          |
+| ActixLight         | `<ActixLight />`         |
+| Adonis             | `<Adonis />`             |
+| AfterEffects       | `<AfterEffects />`       |
+| AiScriptDark       | `<AiScriptDark />`       |
+| AiScriptLight      | `<AiScriptLight />`      |
+| AlpineJSDark       | `<AlpineJSDark />`       |
+| AlpineJSLight      | `<AlpineJSLight />`      |
+| AnacondaDark       | `<AnacondaDark />`       |
+| AnacondaLight      | `<AnacondaLight />`      |
+| AndroidStudioDark  | `<AndroidStudioDark />`  |
+| AndroidStudioLight | `<AndroidStudioLight />` |
+| AngularDark        | `<AngularDark />`        |
+| AngularLight       | `<AngularLight />`       |
+| Ansible            | `<Ansible />`            |
+| Apollo             | `<Apollo />`             |
+| AppleDark          | `<AppleDark />`          |
+| AppleLight         | `<AppleLight />`         |
+| Appwrite           | `<Appwrite />`           |
+| ArchDark           | `<ArchDark />`           |
+| ArchLight          | `<ArchLight />`          |
+| Arduino            | `<Arduino />`            |
+| Astro              | `<Astro />`              |
+| Atom               | `<Atom />`               |
+| Audition           | `<Audition />`           |
+| AutoCADDark        | `<AutoCADDark />`        |
+| AutoCADLight       | `<AutoCADLight />`       |
+| Azul               | `<Azul />`               |
+| AzureDark          | `<AzureDark />`          |
+| AzureLight         | `<AzureLight />`         |
+| BSDDark            | `<BSDDark />`            |
+| BSDLight           | `<BSDLight />`           |
+| Babel              | `<Babel />`              |
+| BashDark           | `<BashDark />`           |
+| BashLight          | `<BashLight />`          |
+| BevyDark           | `<BevyDark />`           |
+| BevyLight          | `<BevyLight />`          |
+| BitBucketDark      | `<BitBucketDark />`      |
+| BitBucketLight     | `<BitBucketLight />`     |
+| BlenderDark        | `<BlenderDark />`        |
+| BlenderLight       | `<BlenderLight />`       |
+| Bootstrap          | `<Bootstrap />`          |
+| BunDark            | `<BunDark />`            |
+| BunLight           | `<BunLight />`           |
+| C                  | `<C />`                  |
+| CLionDark          | `<CLionDark />`          |
+| CLionLight         | `<CLionLight />`         |
+| CMakeDark          | `<CMakeDark />`          |
+| CMakeLight         | `<CMakeLight />`         |
+| CPP                | `<CPP />`                |
+| CS                 | `<CS />`                 |
+| CSS                | `<CSS />`                |
+| CassandraDark      | `<CassandraDark />`      |
+| CassandraLight     | `<CassandraLight />`     |
+| ClojureDark        | `<ClojureDark />`        |
+| ClojureLight       | `<ClojureLight />`       |
+| CloudflareDark     | `<CloudflareDark />`     |
+| CloudflareLight    | `<CloudflareLight />`    |
+| CodePenDark        | `<CodePenDark />`        |
+| CodePenLight       | `<CodePenLight />`       |
+| CoffeeScriptDark   | `<CoffeeScriptDark />`   |
+| CoffeeScriptLight  | `<CoffeeScriptLight />`  |
+| CrystalDark        | `<CrystalDark />`        |
+| CrystalLight       | `<CrystalLight />`       |
+| CypressDark        | `<CypressDark />`        |
+| CypressLight       | `<CypressLight />`       |
+| D3Dark             | `<D3Dark />`             |
+| D3Light            | `<D3Light />`            |
+| DENODark           | `<DENODark />`           |
+| DENOLight          | `<DENOLight />`          |
+| DartDark           | `<DartDark />`           |
+| DartLight          | `<DartLight />`          |
+| DebianDark         | `<DebianDark />`         |
+| DebianLight        | `<DebianLight />`        |
+| DevToDark          | `<DevToDark />`          |
+| DevToLight         | `<DevToLight />`         |
+| Discord            | `<Discord />`            |
+| DiscordBots        | `<DiscordBots />`        |
+| DiscordJSDark      | `<DiscordJSDark />`      |
+| DiscordJSLight     | `<DiscordJSLight />`     |
+| Django             | `<Django />`             |
+| Docker             | `<Docker />`             |
+| DotNet             | `<DotNet />`             |
+| DynamoDBDark       | `<DynamoDBDark />`       |
+| DynamoDBLight      | `<DynamoDBLight />`      |
+| EclipseDark        | `<EclipseDark />`        |
+| EclipseLight       | `<EclipseLight />`       |
+| ElasticsearchDark  | `<ElasticsearchDark />`  |
+| ElasticsearchLight | `<ElasticsearchLight />` |
+| Electron           | `<Electron />`           |
+| ElixirDark         | `<ElixirDark />`         |
+| ElixirLight        | `<ElixirLight />`        |
+| ElysiaDark         | `<ElysiaDark />`         |
+| ElysiaLight        | `<ElysiaLight />`        |
+| Emacs              | `<Emacs />`              |
+| Ember              | `<Ember />`              |
+| EmotionDark        | `<EmotionDark />`        |
+| EmotionLight       | `<EmotionLight />`       |
+| ExpressJSDark      | `<ExpressJSDark />`      |
+| ExpressJSLight     | `<ExpressJSLight />`     |
+| FastAPI            | `<FastAPI />`            |
+| FediverseDark      | `<FediverseDark />`      |
+| FediverseLight     | `<FediverseLight />`     |
+| FigmaDark          | `<FigmaDark />`          |
+| FigmaLight         | `<FigmaLight />`         |
+| FirebaseDark       | `<FirebaseDark />`       |
+| FirebaseLight      | `<FirebaseLight />`      |
+| FlaskDark          | `<FlaskDark />`          |
+| FlaskLight         | `<FlaskLight />`         |
+| FlutterDark        | `<FlutterDark />`        |
+| FlutterLight       | `<FlutterLight />`       |
+| Forth              | `<Forth />`              |
+| Fortran            | `<Fortran />`            |
+| GCPDark            | `<GCPDark />`            |
+| GCPLight           | `<GCPLight />`           |
+| GTKDark            | `<GTKDark />`            |
+| GTKLight           | `<GTKLight />`           |
+| GameMakerStudio    | `<GameMakerStudio />`    |
+| Gatsby             | `<Gatsby />`             |
+| GherkinDark        | `<GherkinDark />`        |
+| GherkinLight       | `<GherkinLight />`       |
+| Git                | `<Git />`                |
+| GitLabDark         | `<GitLabDark />`         |
+| GitLabLight        | `<GitLabLight />`        |
+| GithubDark         | `<GithubDark />`         |
+| GithubLight        | `<GithubLight />`        |
+| GithubActionsDark  | `<GithubActionsDark />`  |
+| GithubActionsLight | `<GithubActionsLight />` |
+| GmailDark          | `<GmailDark />`          |
+| GmailLight         | `<GmailLight />`         |
+| GoLang             | `<GoLang />`             |
+| GodotDark          | `<GodotDark />`          |
+| GodotLight         | `<GodotLight />`         |
+| GradleDark         | `<GradleDark />`         |
+| GradleLight        | `<GradleLight />`        |
+| GrafanaDark        | `<GrafanaDark />`        |
+| GrafanaLight       | `<GrafanaLight />`       |
+| GraphQLDark        | `<GraphQLDark />`        |
+| GraphQLLight       | `<GraphQLLight />`       |
+| Gulp               | `<Gulp />`               |
+| HTML               | `<HTML />`               |
+| HaskellDark        | `<HaskellDark />`        |
+| HaskellLight       | `<HaskellLight />`       |
+| HaxeDark           | `<HaxeDark />`           |
+| HaxeLight          | `<HaxeLight />`          |
+| HaxeFlixelDark     | `<HaxeFlixelDark />`     |
+| HaxeFlixelLight    | `<HaxeFlixelLight />`    |
+| Heroku             | `<Heroku />`             |
+| HibernateDark      | `<HibernateDark />`      |
+| HibernateLight     | `<HibernateLight />`     |
+| HtmxDark           | `<HtmxDark />`           |
+| HtmxLight          | `<HtmxLight />`          |
+| IPFSDark           | `<IPFSDark />`           |
+| IPFSLight          | `<IPFSLight />`          |
+| IdeaDark           | `<IdeaDark />`           |
+| IdeaLight          | `<IdeaLight />`          |
+| Illustrator        | `<Illustrator />`        |
+| Instagram          | `<Instagram />`          |
+| JQuery             | `<JQuery />`             |
+| JavaDark           | `<JavaDark />`           |
+| JavaLight          | `<JavaLight />`          |
+| JavaScript         | `<JavaScript />`         |
+| JenkinsDark        | `<JenkinsDark />`        |
+| JenkinsLight       | `<JenkinsLight />`       |
+| Jest               | `<Jest />`               |
+| JuliaDark          | `<JuliaDark />`          |
+| JuliaLight         | `<JuliaLight />`         |
+| Kafka              | `<Kafka />`              |
+| KaliDark           | `<KaliDark />`           |
+| KaliLight          | `<KaliLight />`          |
+| KotlinDark         | `<KotlinDark />`         |
+| KotlinLight        | `<KotlinLight />`        |
+| KtorDark           | `<KtorDark />`           |
+| KtorLight          | `<KtorLight />`          |
+| Kubernetes         | `<Kubernetes />`         |
+| LaTeXDark          | `<LaTeXDark />`          |
+| LaTeXLight         | `<LaTeXLight />`         |
+| LaravelDark        | `<LaravelDark />`        |
+| LaravelLight       | `<LaravelLight />`       |
+| LessDark           | `<LessDark />`           |
+| LessLight          | `<LessLight />`          |
+| LinkedIn           | `<LinkedIn />`           |
+| LinuxDark          | `<LinuxDark />`          |
+| LinuxLight         | `<LinuxLight />`         |
+| LitDark            | `<LitDark />`            |
+| LitLight           | `<LitLight />`           |
+| LuaDark            | `<LuaDark />`            |
+| LuaLight           | `<LuaLight />`           |
+| MarkdownDark       | `<MarkdownDark />`       |
+| MarkdownLight      | `<MarkdownLight />`      |
+| MastodonDark       | `<MastodonDark />`       |
+| MastodonLight      | `<MastodonLight />`      |
+| MaterialUIDark     | `<MaterialUIDark />`     |
+| MaterialUILight    | `<MaterialUILight />`    |
+| MatlabDark         | `<MatlabDark />`         |
+| MatlabLight        | `<MatlabLight />`        |
+| MavenDark          | `<MavenDark />`          |
+| MavenLight         | `<MavenLight />`         |
+| MintDark           | `<MintDark />`           |
+| MintLight          | `<MintLight />`          |
+| MisskeyDark        | `<MisskeyDark />`        |
+| MisskeyLight       | `<MisskeyLight />`       |
+| MongoDB            | `<MongoDB />`            |
+| MySQLDark          | `<MySQLDark />`          |
+| MySQLLight         | `<MySQLLight />`         |
+| NeoVimDark         | `<NeoVimDark />`         |
+| NeoVimLight        | `<NeoVimLight />`        |
+| NestJSDark         | `<NestJSDark />`         |
+| NestJSLight        | `<NestJSLight />`        |
+| NetlifyDark        | `<NetlifyDark />`        |
+| NetlifyLight       | `<NetlifyLight />`       |
+| NextJSDark         | `<NextJSDark />`         |
+| NextJSLight        | `<NextJSLight />`        |
+| Nginx              | `<Nginx />`              |
+| NimDark            | `<NimDark />`            |
+| NimLight           | `<NimLight />`           |
+| NixDark            | `<NixDark />`            |
+| NixLight           | `<NixLight />`           |
+| NodeJSDark         | `<NodeJSDark />`         |
+| NodeJSLight        | `<NodeJSLight />`        |
+| NotionDark         | `<NotionDark />`         |
+| NotionLight        | `<NotionLight />`        |
+| NpmDark            | `<NpmDark />`            |
+| NpmLight           | `<NpmLight />`           |
+| NuxtJSDark         | `<NuxtJSDark />`         |
+| NuxtJSLight        | `<NuxtJSLight />`        |
+| OCaml              | `<OCaml />`              |
+| ObsidianDark       | `<ObsidianDark />`       |
+| ObsidianLight      | `<ObsidianLight />`      |
+| OctaveDark         | `<OctaveDark />`         |
+| OctaveLight        | `<OctaveLight />`        |
+| OpenCVDark         | `<OpenCVDark />`         |
+| OpenCVLight        | `<OpenCVLight />`        |
+| OpenShift          | `<OpenShift />`          |
+| OpenStackDark      | `<OpenStackDark />`      |
+| OpenStackLight     | `<OpenStackLight />`     |
+| P5Js               | `<P5Js />`               |
+| PHPDark            | `<PHPDark />`            |
+| PHPLight           | `<PHPLight />`           |
+| Perl               | `<Perl />`               |
+| Photoshop          | `<Photoshop />`          |
+| PhpStormDark       | `<PhpStormDark />`       |
+| PhpStormLight      | `<PhpStormLight />`      |
+| PiniaDark          | `<PiniaDark />`          |
+| PiniaLight         | `<PiniaLight />`         |
+| PklDark            | `<PklDark />`            |
+| PklLight           | `<PklLight />`           |
+| Plan9Dark          | `<Plan9Dark />`          |
+| Plan9Light         | `<Plan9Light />`         |
+| PlanetScaleDark    | `<PlanetScaleDark />`    |
+| PlanetScaleLight   | `<PlanetScaleLight />`   |
+| PnpmDark           | `<PnpmDark />`           |
+| PnpmLight          | `<PnpmLight />`          |
+| PostgreSQLDark     | `<PostgreSQLDark />`     |
+| PostgreSQLLight    | `<PostgreSQLLight />`    |
+| Postman            | `<Postman />`            |
+| PowershellDark     | `<PowershellDark />`     |
+| PowershellLight    | `<PowershellLight />`    |
+| Premiere           | `<Premiere />`           |
+| Prisma             | `<Prisma />`             |
+| ProcessingDark     | `<ProcessingDark />`     |
+| ProcessingLight    | `<ProcessingLight />`    |
+| Prometheus         | `<Prometheus />`         |
+| PugDark            | `<PugDark />`            |
+| PugLight           | `<PugLight />`           |
+| PyCharmDark        | `<PyCharmDark />`        |
+| PyCharmLight       | `<PyCharmLight />`       |
+| PyTorchDark        | `<PyTorchDark />`        |
+| PyTorchLight       | `<PyTorchLight />`       |
+| PythonDark         | `<PythonDark />`         |
+| PythonLight        | `<PythonLight />`        |
+| QTDark             | `<QTDark />`             |
+| QTLight            | `<QTLight />`            |
+| RDark              | `<RDark />`              |
+| RLight             | `<RLight />`             |
+| ROSDark            | `<ROSDark />`            |
+| ROSLight           | `<ROSLight />`           |
+| RabbitMQDark       | `<RabbitMQDark />`       |
+| RabbitMQLight      | `<RabbitMQLight />`      |
+| Rails              | `<Rails />`              |
+| RaspberryPiDark    | `<RaspberryPiDark />`    |
+| RaspberryPiLight   | `<RaspberryPiLight />`   |
+| ReactDark          | `<ReactDark />`          |
+| ReactLight         | `<ReactLight />`         |
+| ReactiveXDark      | `<ReactiveXDark />`      |
+| ReactiveXLight     | `<ReactiveXLight />`     |
+| RedHatDark         | `<RedHatDark />`         |
+| RedHatLight        | `<RedHatLight />`        |
+| RedisDark          | `<RedisDark />`          |
+| RedisLight         | `<RedisLight />`         |
+| Redux              | `<Redux />`              |
+| RegexDark          | `<RegexDark />`          |
+| RegexLight         | `<RegexLight />`         |
+| RemixDark          | `<RemixDark />`          |
+| RemixLight         | `<RemixLight />`         |
+| ReplitDark         | `<ReplitDark />`         |
+| ReplitLight        | `<ReplitLight />`        |
+| RiderDark          | `<RiderDark />`          |
+| RiderLight         | `<RiderLight />`         |
+| RobloxStudio       | `<RobloxStudio />`       |
+| Rocket             | `<Rocket />`             |
+| RollupJSDark       | `<RollupJSDark />`       |
+| RollupJSLight      | `<RollupJSLight />`      |
+| Ruby               | `<Ruby />`               |
+| Rust               | `<Rust />`               |
+| SQLite             | `<SQLite />`             |
+| SVGDark            | `<SVGDark />`            |
+| SVGLight           | `<SVGLight />`           |
+| Sass               | `<Sass />`               |
+| ScalaDark          | `<ScalaDark />`          |
+| ScalaLight         | `<ScalaLight />`         |
+| SciKitLearnLight   | `<SciKitLearnLight />`   |
+| ScikitLearnDark    | `<ScikitLearnDark />`    |
+| Selenium           | `<Selenium />`           |
+| Sentry             | `<Sentry />`             |
+| SequelizeDark      | `<SequelizeDark />`      |
+| SequelizeLight     | `<SequelizeLight />`     |
+| SketchupDark       | `<SketchupDark />`       |
+| SketchupLight      | `<SketchupLight />`      |
+| SolidJSDark        | `<SolidJSDark />`        |
+| SolidJSLight       | `<SolidJSLight />`       |
+| Solidity           | `<Solidity />`           |
+| SpringDark         | `<SpringDark />`         |
+| SpringLight        | `<SpringLight />`        |
+| StackOverflowDark  | `<StackOverflowDark />`  |
+| StackOverflowLight | `<StackOverflowLight />` |
+| StyledComponents   | `<StyledComponents />`   |
+| SublimeDark        | `<SublimeDark />`        |
+| SublimeLight       | `<SublimeLight />`       |
+| SupabaseDark       | `<SupabaseDark />`       |
+| SupabaseLight      | `<SupabaseLight />`      |
+| Svelte             | `<Svelte />`             |
+| Swift              | `<Swift />`              |
+| SymfonyDark        | `<SymfonyDark />`        |
+| SymfonyLight       | `<SymfonyLight />`       |
+| TailwindCSSDark    | `<TailwindCSSDark />`    |
+| TailwindCSSLight   | `<TailwindCSSLight />`   |
+| TauriDark          | `<TauriDark />`          |
+| TauriLight         | `<TauriLight />`         |
+| TensorFlowDark     | `<TensorFlowDark />`     |
+| TensorFlowLight    | `<TensorFlowLight />`    |
+| TerraformDark      | `<TerraformDark />`      |
+| TerraformLight     | `<TerraformLight />`     |
+| ThreeJSDark        | `<ThreeJSDark />`        |
+| ThreeJSLight       | `<ThreeJSLight />`       |
+| Twitter            | `<Twitter />`            |
+| TypeScript         | `<TypeScript />`         |
+| UbuntuDark         | `<UbuntuDark />`         |
+| UbuntuLight        | `<UbuntuLight />`        |
+| UnityDark          | `<UnityDark />`          |
+| UnityLight         | `<UnityLight />`         |
+| UnrealEngine       | `<UnrealEngine />`       |
+| VDark              | `<VDark />`              |
+| VLight             | `<VLight />`             |
+| VIMDark            | `<VIMDark />`            |
+| VIMLight           | `<VIMLight />`           |
+| VSCodeDark         | `<VSCodeDark />`         |
+| VSCodeLight        | `<VSCodeLight />`        |
+| VSCodiumDark       | `<VSCodiumDark />`       |
+| VSCodiumLight      | `<VSCodiumLight />`      |
+| Vala               | `<Vala />`               |
+| VercelDark         | `<VercelDark />`         |
+| VercelLight        | `<VercelLight />`        |
+| VisualStudioDark   | `<VisualStudioDark />`   |
+| VisualStudioLight  | `<VisualStudioLight />`  |
+| ViteDark           | `<ViteDark />`           |
+| ViteLight          | `<ViteLight />`          |
+| VitestDark         | `<VitestDark />`         |
+| VitestLight        | `<VitestLight />`        |
+| VueJSDark          | `<VueJSDark />`          |
+| VueJSLight         | `<VueJSLight />`         |
+| VuetifyDark        | `<VuetifyDark />`        |
+| VuetifyLight       | `<VuetifyLight />`       |
+| WebAssembly        | `<WebAssembly />`        |
+| WebStormDark       | `<WebStormDark />`       |
+| WebStormLight      | `<WebStormLight />`      |
+| Webflow            | `<Webflow />`            |
+| WebpackDark        | `<WebpackDark />`        |
+| WebpackLight       | `<WebpackLight />`       |
+| WindiCSSDark       | `<WindiCSSDark />`       |
+| WindiCSSLight      | `<WindiCSSLight />`      |
+| WindowsDark        | `<WindowsDark />`        |
+| WindowsLight       | `<WindowsLight />`       |
+| Wordpress          | `<Wordpress />`          |
+| WorkersDark        | `<WorkersDark />`        |
+| WorkersLight       | `<WorkersLight />`       |
+| XD                 | `<XD />`                 |
+| YarnDark           | `<YarnDark />`           |
+| YarnLight          | `<YarnLight />`          |
+| YewDark            | `<YewDark />`            |
+| YewLight           | `<YewLight />`           |
+| ZigDark            | `<ZigDark />`            |
+| ZigLight           | `<ZigLight />`           |
+
+## Credits
+
+Authors of skillicons and heroicons
+
+- [Tandpfun](https://github.com/tandpfun) tandpfun/skill-icons
+- [Tailwindlabs](https://github.com/tailwindlabs) tailwindlabs/heroicons
