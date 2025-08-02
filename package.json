@@ -1,0 +1,23 @@
+{
+  "name": "skill-icons",
+  "version": "0.0.0",
+  "description": "A set of free MIT-licensed SVG skill icons.",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm download && pnpm build:react && pnpm build:vue",
+    "build:react": "node scripts/build.js react",
+    "build:vue": "node scripts/build.js vue",
+    "download": "node scripts/download.js"
+  },
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@swc/core": "^1.13.3",
+    "@vue/compiler-dom": "^3.5.18",
+    "camelcase": "^8.0.0",
+    "degit": "^2.8.4"
+  }
+}
