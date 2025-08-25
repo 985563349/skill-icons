@@ -1,6 +1,6 @@
 {
   "name": "skill-icons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A set of free MIT-licensed SVG skill icons.",
   "type": "module",
   "scripts": {
